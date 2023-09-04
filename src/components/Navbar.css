@@ -1,0 +1,41 @@
+nav{
+     /* display: flex;
+    flex-direction: row;
+    /*justify-content: center;
+    align-items: center; */ 
+    width: 100%;
+    height: 12.5%;
+    padding: 2rem;
+    background-color: dodgerblue;
+}
+
+nav a{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+nav a:hover{
+        color: white;
+}
+
+.active{
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        height: 15%;
+        padding: 1rem;
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+    }
+    nav a:hover{
+        color: white;
+    }
+
+  }
