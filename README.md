@@ -1,6 +1,6 @@
 # Air Quality Dashboard
 
-This is a simple React application that fetches and displays air quality data for the city of Seattle using the "air-quality-by-api-ninjas" API.
+This is a simple React application that fetches and displays air quality data for the city using the "air-quality-by-api-ninjas" API.
 
 ## Getting Started
 
